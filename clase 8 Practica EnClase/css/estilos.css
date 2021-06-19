@@ -1,0 +1,23 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap'); */
+@font-face{
+    src: url('../Fonts/Roboto/Roboto-Light.ttf');
+    font-family: 'Roboto';
+}
+header{
+     background-color: beige;
+     background-image: url('../img/fondo.jpeg');
+     background-repeat: no-repeat;
+     background-position: center -50px;
+     background-size: cover;
+     background-attachment: fixed; 
+     height:100vh;
+ }
+ h1,h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+ }
+ p{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 900;
+ }
+  
