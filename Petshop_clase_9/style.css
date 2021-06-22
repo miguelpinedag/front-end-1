@@ -1,0 +1,47 @@
+.primer-titulo{
+    background-color: #000000;
+    color: #fdfeff;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 30px;
+}
+.huellas{
+
+    background-color: #F0A83E;
+    color: #000;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 30px;
+}
+
+.imagen-verde{
+    background-position: center;
+	background-size: cover;
+	background-repeat: no repeat;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+}
+
+.fondo-cafe{
+
+    background-color: #3C2313;
+    color:#fdfeff;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 50px;
+}
+
