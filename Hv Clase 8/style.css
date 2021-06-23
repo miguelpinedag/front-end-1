@@ -1,0 +1,74 @@
+
+body{font-family: 'Work Sans', sans-serif;}
+
+.foto-perfil{
+    margin: auto;
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    display: block;    
+}
+
+.fondo-perfil{
+    background-image: url(/img/fondo_banner.jpg);
+    background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	;
+    }
+
+.primer-titulo{
+    background-color: #C4C4C4;
+    color: #005677;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.subtitulos{
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+.listas{
+    list-style:none;
+}
+
+.li-negrita-cursiva{
+    font-weight: bold;
+    font-style: Italic;
+}
+
+.pie-de-pagina{
+    background-color: #005677;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height : 35px;
+}
+
+.logo-instagram{
+    width: 20px;
+    height: 20px;
+    left: 772px;
+    top: 996px;
+}
+.logo-linkedin{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.foto-contacto{
+    margin: auto;
+    width: 650px;
+    height: 400px;
+    text-align: center;
+    display: block;  
+
+}
