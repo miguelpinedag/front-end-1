@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+    font-family: 'Roboto';
+    color: #f2f2f2;
+}
+
+
+/** LISTAS **/
+
+
+/* Menú  */
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li::before {
+    content: "*";
+    color: red;
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+nav ul li:hover::before {
+    visibility: visible;
+}
+
+
+/* ... */
+
+a {
+    margin: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a:link {
+    /*No visitado por el usuario y con href*/
+    color: blue;
+}
+
+a:active {
+    /*Se activa cuando el usuario pulsa el elemento*/
+    background-color: red;
+}
+
+a:hover {
+    /*Elemento apuntador pasa por encima*/
+    text-decoration: underline;
+}
+
+a:visited {
+    /*Exclusivo para enlaces*/
+    color: purple;
+}
+
+
+/* ... */
+
+
+/* Lista con viñeta centrada */
+
+.centrar-listas {
+    text-align: center;
+}
+
+.centrar-listas ul {
+    text-align: left;
+    display: inline-block;
+}
+
+
+/* Lista rayada */
+
+ul.lista {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 80%;
+}
+
+ul.lista li {
+    margin: 0;
+    padding: 8px 10px;
+    color: #111;
+}
+
+ul.lista li:nth-child(odd) {
+    /* filas impares */
+    background-color: #e5e5e5;
+}
+
+ul.lista li:nth-child(even) {
+    /* filas pares */
+    background-color: #cccccc;
+}
+
+
+/* ... */
+
+
+/* Otras pruebas en los textos */
+
+p:nth-child(odd) {
+    font-size: 1.5em;
+    color: blue;
+}
+
+p:nth-child(even)::after {
+    content: " - Continuará";
+    color: red;
+}
+
+#parrafos h2:hover {
+    text-align: center;
+    color: rebeccapurple;
+    background-color: rgb(255, 157, 157);
+    font-size: 2em;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+#flex-container:hover {
+    display: block;
+}
+
+
+/* algunos seudo-elementos mas*/
+
+h1::first-letter {
+    color: blue;
+}
+
+h1::selection {
+    background-color: red;
+}
+
+
+/* Dialogo-perrito */
+
+.dialogo {
+    background: var(--secondary-color);
+    padding: 10px;
+    color: #000;
+    margin: 30px auto;
+    border-radius: 15px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    width: 200px;
+    position: relative;
+}
+
+.dialogo::before {
+    content: "";
+    border-top: 20px solid var(--secondary-color);
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    bottom: -40px;
+    right: calc(50% - 20px);
+}
+
+.dialogo::after {
+    display: block;
+    content: url("../img/perro.gif");
+    position: absolute;
+}
+
+
+/* ... */
+
+
+/*  Formularios */
+
+form input {
+    margin: 15px 15px 0 15px;
+}
+
+input[type=submit],
+input[type=reset] {
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+    width: unset;
+}
+
+input::placeholder {
+    color: grey;
+}
+
+input:focus::placeholder {
+    visibility: hidden;
+}
+
+input[type=text][name=nombre]:invalid,
+input[type=email]:invalid {
+    border: 2px solid var(--primary-color);
+}
+
+input[type=text]:valid,
+input[type=email]:valid {
+    border: 2px solid transparent;
+}
+
+
+/* opcion automática */
+
+fieldset div {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+label::before {
+    content: "*";
+    color: red;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+/* ... */

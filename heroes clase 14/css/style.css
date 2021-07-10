@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+  
+}
+
+/*  start code header */
+#nav-top {
+
+    width: 100%;
+
+}
+
+#sub-nav1 {
+    background: #1CD1B0;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+
+}
+
+#sub-nav2 {
+    background: #00669F;
+    height: 80px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    padding: 28px 28px 26px;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*  end code hedder */
+
+/*  code main */
+
+#main-content {
+
+    flex-wrap: wrap;
+    margin: 8rem auto auto auto;
+    align-self: center;
+     z-index: -1;
+    width: 95%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#main-content article {
+    width: 300px;
+    height: 529px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto 30px;
+}
+
+.card {
+    display: flexbox;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.batman {
+    width: 300px;
+    height: 193px;
+    background-image: url('../img/houseBatman.png');
+}
+
+.motion {
+    width: 300px;
+    height: 193px;
+    background-image: url('../img/motionColors.png');
+}
+
+.profile img {
+    position: absolute;
+    top: 120px;
+    left: 90px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile i {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: rgba(204, 36, 36, 1);
+    font-size: 25px;
+
+}
+
+.card section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 340px;
+}
+
+.subBody h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 6px;
+    margin-top:2rem; 
+
+}
+
+.subBody p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 6px 15px 0 17px;
+}
+
+.btn-card {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-color:
+        rgba(0, 102, 159, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 128px;
+    height: 48px;
+    text-align: center;
+    line-height: 45px;
+}
+/*  end code main */
+
+footer{
+    width: 100%;
+    height: 55px;
+    margin: 1040px auto;
+    background: #00669F;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    align-self: baseline;
+    text-align: center;
+}
+
+footer p{
+ padding: 18px 18px 0 18px;
+}

@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+}
+
+.firts-message{
+    background-color: #1cd1b0;
+    height: 23PX;
+}
+
+.banner{
+    background-color: #00669f;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    font-size: 1.5em;
+}
+
+.forms{
+
+    height:8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    padding:350px 650px ;
+}
+
+.login-tittle{
+
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.user-input{
+    
+    text-align: left;
+    padding: 10px 350px 10px 10px;
+}
+
+.submit-button{
+ 
+    background-color: #1CD1B0;
+    padding: 10px 250px 10px 250px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.pais{
+    text-align: center;
+    padding: 10px 450px 10px 0px;
+}
+
+.registro-button-1{
+
+    background-color: #888888;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.registro-button-2{
+
+    background-color: #1CD1B0;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+    .botones{
+        color: #ffff;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        padding: 20px 100px 10px 20px;
+    }

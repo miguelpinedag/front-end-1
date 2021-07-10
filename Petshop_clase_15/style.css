@@ -23,7 +23,7 @@
 }
 
 h1{
-    font-size: 60px;
+    font-size: 100px;
     text-align: center;
 }
 
@@ -43,15 +43,14 @@ p{
     font-size: 15px;
     font-family: 'Work Sans', sans-serif;
     line-height: 50px;
+    width: 100%;
+    
 }
 
-#bloque-central{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-#tittle{
-    position: relative;
-    left:500px;
-    top: 500px;
-}
+body {
+    @media (max-width: 768px){
+    /* Tablets */
+    }
+    @media (max-width: 460px){
+    /* Smartphones */
+    }

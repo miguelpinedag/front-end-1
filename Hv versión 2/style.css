@@ -1,0 +1,53 @@
+.foto-perfil{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    display: block;    
+}
+
+.primer-titulo{
+    background-color: #C4C4C4;
+    color: #005677;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman',Times, Serif;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.subtitulos{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+.listas{
+    list-style:none;
+}
+
+.li-negrita-cursiva{
+    font-weight: bold;
+    font-style: Italic;
+}
+
+.pie-de-pagina{
+    background-color: #005677;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.logo-instagram{
+    width: 30px;
+    height: 20px;
+    left: 772px;
+    top: 996px;
+}
+.logo-linkedin{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
