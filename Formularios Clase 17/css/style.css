@@ -9,22 +9,45 @@ body{
     height: 23PX;
 }
 
-.banner{
+.logo{
     background-color: #00669f;
-    height: 80px;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
+    height: 80px;
     color: #ffff;
     font-size: 1.5em;
 }
 
-.forms{
+.banner-2{
+    background-color:#001D2D;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    color: #ffff;
+    font-size: 1.5em;
+    
+}
 
+.banner-2 a:hover, a:active{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.forms{
+    margin: 0;
+    padding: 300px;
+    width: 15%;
+    border-radius: 50px;
+    background-color: #00669F;
     height:8rem;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
-    padding:350px 650px ;
+    justify-content:center;
+    position: relative;
+    left: 520px;
+    top: 20px;
 }
 
 .login-tittle{
@@ -81,3 +104,4 @@ body{
         padding: 100px 188px;
         
     }
+    
